@@ -176,3 +176,6 @@ footer {
 }
 // You can add form functionality or any interactive features here
 console.log("Mighty Joint Construction website is live!");
+git add .
+git commit -m "Initial commit of construction website"
+git push origin main
