@@ -51,7 +51,7 @@
 <!-- Footer -->
 <footer class="footer bg-dark text-white py-4">
   <div class="container text-center">
-    <img src="assets/images/logo.png" alt="Mighty Joint Construction Logo" height="50" class="mb-2"/>
+    <img src="assets/images/logo.png" alt="Mighty Joint Construction Logo" height="60" class="mb-3"/>
     <p class="mb-1">&copy; 2025 <span class="text-orange">Mighty Joint Construction</span>. All Rights Reserved.</p>
     <p class="mb-1">📞 980-327-2803</p>
     <p>📧 <a href="mailto:mightyjointconstruction@gmail.com" class="text-white">mightyjointconstruction@gmail.com</a></p>
@@ -62,13 +62,58 @@
 <script src="assets/js/main.js"></script>
 </body>
 </html>
-/* Style logo in navbar and footer */
+/* Global Styles */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+/* Custom Colors */
+.text-limegreen {
+  color: limegreen;
+}
+
+.text-orange {
+  color: orange;
+}
+
+/* Hero Section */
+.hero {
+  background: linear-gradient(to right, #333, #000);
+  height: 80vh;
+  padding: 60px 0;
+}
+
+/* Button Style */
+.hero .btn {
+  border-color: limegreen;
+  color: limegreen;
+}
+.hero .btn:hover {
+  background-color: limegreen;
+  color: #fff;
+}
+
+/* Logo */
 .navbar-brand img {
   max-height: 40px;
 }
-
 .footer img {
-  max-height: 50px;
+  max-height: 60px;
 }
 
-/* Keep other styles as before */
+/* Navbar Hover */
+.navbar a.nav-link:hover {
+  color: orange !important;
+}
+/mighty-joint-construction
+├── assets/
+│   ├── images/
+│   │   └── logo.png      ← Your uploaded logo here
+│   ├── css/
+│   │   └── style.css
+│   └── js/
+│       └── main.js
+├── index.html
+
