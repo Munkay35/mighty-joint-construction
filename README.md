@@ -34,7 +34,7 @@
 <!-- Hero Section -->
 <header class="hero text-white text-center d-flex align-items-center">
   <div class="container">
-    <h1 class="display-4">Welcome to <span class="text-orange">Mighty Joint</span> Construction</h1>
+    <h1 class="display-4">Welcome to <span class="text-orange">Mighty Joint Construction</h1>
     <p class="lead">Together We Can Build Anything</p>
     <a href="services.html" class="btn btn-lg btn-outline-light mt-3">Explore Services</a>
   </div>
