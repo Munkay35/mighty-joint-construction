@@ -1,178 +1,74 @@
-# mighty-joint-construction
-/mighty-joint-construction
-    /assets
-        /images        # Store your logos and project images here
-        /css           # Custom CSS or Bootstrap files
-        /js            # Any JS files (like form handling, animations)
-    /index.html        # Home page
-    /about.html        # About page
-    /services.html     # Services page
-    /portfolio.html    # Portfolio/Projects page
-    /contact.html      # Contact page (with a form)
-    /css/style.css     # Your custom styles
-    /js/main.js        # Any additional scripts
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mighty Joint Construction</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mighty Joint Construction</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <link rel="stylesheet" href="assets/css/style.css"/>
 </head>
 <body>
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container">
-            <a class="navbar-brand" href="#">Mighty Joint Construction</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link active" href="index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="about.html">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="services.html">Services</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="portfolio.html">Portfolio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
 
-    <!-- Hero Section -->
-    <header class="hero bg-dark text-white text-center py-5">
-        <div class="container">
-            <h1>Welcome to Mighty Joint Construction</h1>
-            <p>Together We Can Build Anything</p>
-            <a href="services.html" class="btn btn-primary">Our Services</a>
-        </div>
-    </header>
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container">
+    <a class="navbar-brand d-flex align-items-center" href="#">
+      <img src="assets/images/logo.png" alt="Mighty Joint Construction Logo" height="40" class="me-2"/>
+      <span class="text-limegreen">Mighty Joint Construction</span>
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+        <li class="nav-item"><a class="nav-link" href="portfolio.html">Portfolio</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
 
-    <!-- About Section -->
-    <section class="about py-5">
-        <div class="container">
-            <h2 class="text-center">About Us</h2>
-            <p class="text-center">We specialize in both residential and commercial construction projects. With years of experience, we guarantee the highest quality work.</p>
-        </div>
-    </section>
+<!-- Hero Section -->
+<header class="hero text-white text-center d-flex align-items-center">
+  <div class="container">
+    <h1 class="display-4">Welcome to <span class="text-orange">Mighty Joint</span> Construction</h1>
+    <p class="lead">Together We Can Build Anything</p>
+    <a href="services.html" class="btn btn-lg btn-outline-light mt-3">Explore Services</a>
+  </div>
+</header>
 
-    <!-- Footer -->
-    <footer class="bg-dark text-white text-center py-3">
-        <p>&copy; 2025 Mighty Joint Construction. All Rights Reserved.</p>
-    </footer>
+<!-- About Section -->
+<section class="about-section py-5">
+  <div class="container text-center">
+    <h2 class="mb-4 text-limegreen">About Us</h2>
+    <p>We specialize in both residential and commercial construction projects. With years of experience, we guarantee the highest quality work.</p>
+  </div>
+</section>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/js/main.js"></script>
+<!-- Footer -->
+<footer class="footer bg-dark text-white py-4">
+  <div class="container text-center">
+    <img src="assets/images/logo.png" alt="Mighty Joint Construction Logo" height="50" class="mb-2"/>
+    <p class="mb-1">&copy; 2025 <span class="text-orange">Mighty Joint Construction</span>. All Rights Reserved.</p>
+    <p class="mb-1">📞 980-327-2803</p>
+    <p>📧 <a href="mailto:mightyjointconstruction@gmail.com" class="text-white">mightyjointconstruction@gmail.com</a></p>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="assets/js/main.js"></script>
 </body>
 </html>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Us | Mighty Joint Construction</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/style.css">
-</head>
-<body>
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container">
-            <a class="navbar-brand" href="#">Mighty Joint Construction</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" href="about.html">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="services.html">Services</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="portfolio.html">Portfolio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-
-    <!-- About Us Section -->
-    <section class="about py-5">
-        <div class="container">
-            <h2 class="text-center">Who We Are</h2>
-            <p class="text-center">Mighty Joint Construction is a leading construction company that specializes in both residential and commercial projects. With years of expertise, we deliver results with precision and care.</p>
-            <!-- More content here -->
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="bg-dark text-white text-center py-3">
-        <p>&copy; 2025 Mighty Joint Construction. All Rights Reserved.</p>
-    </footer>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/js/main.js"></script>
-</body>
-</html>
-<!-- Same as previous HTML structure, just include your specific services content -->
-<!-- Same structure; display images of past projects with descriptions -->
-<!-- Include a simple contact form here -->
-/* Add your color scheme and general styling */
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+/* Style logo in navbar and footer */
+.navbar-brand img {
+  max-height: 40px;
 }
 
-.hero {
-    background-color: #000;
-    color: #fff;
+.footer img {
+  max-height: 50px;
 }
 
-.navbar {
-    background-color: #333;
-}
-
-.navbar a {
-    color: #fff;
-}
-
-.navbar a:hover {
-    color: #FFD700;
-}
-
-/* Custom colors */
-.primary-color {
-    color: limegreen;
-}
-
-.secondary-color {
-    color: orange;
-}
-
-footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 10px 0;
-}
-// You can add form functionality or any interactive features here
-console.log("Mighty Joint Construction website is live!");
+/* Keep other styles as before */
